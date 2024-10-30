@@ -5,6 +5,7 @@ import './App.css'
 import profilePic from './123.jpg'
 import React from 'react'
 import Todo from './todo'
+import { Todo2 } from './Todo2'
 
 function Description({description}){
   return(
@@ -32,7 +33,8 @@ function App() {
     <Description description={description} designation='Managerial'/>
     <Description description='My name is Bill Gates' founded='Microsoft'/>
     <Photo imageURL={profilePic} className='rounded'/>
-    <Todo ></Todo>
+    {/* <Todo ></Todo> */}
+    <Todo2 />
     </>
   )
  }
